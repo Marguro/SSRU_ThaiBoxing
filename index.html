@@ -7,12 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SSRU Thai Boxing</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -58,12 +55,12 @@
     </div>
     <!-- Home -->
     <div class="container pt-5">
-      <div class="row">
+      <div class="row py-5">
         <div class="col-md-6">
           <img src="img/HIS.jpg" alt="Image description" class="img-fluid">
         </div>
         <div class="col-md-6">
-          <p class="h1">ประวัติสวนสุนันทามวยไทย</p>
+          <h2 class="">ประวัติสวนสุนันทามวยไทย</h2>
           <p class="fw-bold mb-0">ม.ราชภัฏสวนสุนันทา เปิดโครงการ “สวนสุนันทามวยไทย อะคาเดมี่” ชูศิลปะประจำชาติ</p>
           <p class="lh-sm">เมื่อวันที่ 30 พฤษภาคม ที่มหาวิทยาลัยราชภัฏสวนสุนันทา ผศ. เจตน์สฤษฎิ์ อังศุกาญจนกุล
             รองอธิการบดีฝ่ายกิจการนักศึกษามหาวิทยาลัยราชภัฏสวนสุนันทา กล่าวถึงโครงการสวนสุนันทามวยไทย อะคาเดมี่
@@ -79,12 +76,13 @@
         </div>
       </div>
     </div>
+    <span class="devider"></span>
     <!-- Achievements -->
     <div class="container pt-5">
       <h1 class=" text-center">ผลงาน</h1>
       <div class="container text-start">
-        <div class="row align-items-start">
-          <div class="col align-self-start">
+        <div class="row align-items-start justify-content-between ">
+          <div class="col d-flex justify-content-center">
             <div class="card text-bg-light mb-3" style="max-width: 18rem;">
               <img src="img/AC01.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -93,7 +91,7 @@
               </div>
             </div>
           </div>
-          <div class="col align-self-center">
+          <div class="col d-flex justify-content-center">
             <div class="card text-bg-light mb-3" style="max-width: 18rem;">
               <img src="img/AC02.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -102,7 +100,7 @@
               </div>
             </div>
           </div>
-          <div class="col align-self-end">
+          <div class="col d-flex justify-content-center">
             <div class="card text-bg-light mb-3" style="max-width: 18rem;">
               <img src="img/AC03.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -116,33 +114,84 @@
       <!-- News -->
       <div class="container pt-5 ">
         <h2 class="text-start">ข่าวสารและกิจกรรม</h2>
-        <div class="row"> 
-          <div class="col-2 text-end">
+        <div class="d-flex flex-column">
+          <div class="d-flex flex-row justify-content-between text-start py-3 gap-5">
             <img src="img/News01.jpg" alt="Image description" class="img-fluid" width="125" height="120">
+            <div class="ml-3">
+              <h3 class="title">เปิดรับสมัครนักมวยสากลและนักกีฬามวยไทย</h3>
+              <p class="user-select-none">เปิดรับสมัครนักมวยสากลและนักกีฬามวยไทย
+                (ชาย)เพื่อเป็นตัวแทนไปแข่งขันกีฬามหาวิทยาลัยแห่งประเทศไทย ครั้งที่ 49 นนทรีเกมส์ ตั้งแต่วันที่ 27
+                มกราคม-
+                5 กุมภาพันธ์ พ.ศ. 2567 โอกาสทองของนักศึกษา ม.ราชภัฏสวนสุนันทา
+                เพื่อคัดเลือกตัวแทนนักกีฬาสู่นักกีฬาระดับชาติ นานาชาติ และ โอลิมปิก</p>
+            </div>
           </div>
-          <div class="col-10">
-            <h2 class="title">เปิดรับสมัครนักมวยสากลและนักกีฬามวยไทย</h2>
-            <p class="text">เปิดรับสมัครนักมวยสากลและนักกีฬามวยไทย (ชาย)เพื่อเป็นตัวแทนไปแข่งขันกีฬามหาวิทยาลัยแห่งประเทศไทย ครั้งที่ 49 นนทรีเกมส์ ตั้งแต่วันที่ 27 มกราคม- 5 กุมภาพันธ์ พ.ศ. 2567 โอกาสทองของนักศึกษา ม.ราชภัฏสวนสุนันทา เพื่อคัดเลือกตัวแทนนักกีฬาสู่นักกีฬาระดับชาติ นานาชาติ และ โอลิมปิก</p>
-          </div>
-          <div class="col-2 text-end pt-2">
+          <div class="d-flex flex-row text-start py-3 gap-5">
             <img src="img/AC02.jpg" alt="Image description" class="img-fluid" width="125" height="120">
-          </div>
-          <div class="col-10">
-            <h2 class="title">นศ.สวนสุนันทา” คว้าแชมป์โลกมวยไทยสมัครเล่น</h2>
-            <p class="text">“นศ.สวนสุนันทา” คว้าแชมป์โลกมวยไทยสมัครเล่น รุ่นน้ำหนักไม่เกิน 57 กิโลกรัม ในรายการ กีฬามวยไทยสมัครเล่นชิงแชมป์โลก 2021 (IFMA Youth and Senior World Championship 2021) จัดโดย สหพันธ์มวยไทยสมัครเล่นนานาชาติ (IFMA)</p>
+            <div class="ml-3">
+              <h3 class="title">นศ.สวนสุนันทา” คว้าแชมป์โลกมวยไทยสมัครเล่น</h3>
+              <p class="user-select-none">“นศ.สวนสุนันทา” คว้าแชมป์โลกมวยไทยสมัครเล่น รุ่นน้ำหนักไม่เกิน 57 กิโลกรัม
+                ในรายการ กีฬามวยไทยสมัครเล่นชิงแชมป์โลก 2021 (IFMA Youth and Senior World Championship 2021) จัดโดย
+                สหพันธ์มวยไทยสมัครเล่นนานาชาติ (IFMA)</p>
+            </div>
           </div>
         </div>
       </div>
-
-        <!-- footer -->
-        <footer class="text-center p-3" style="background-color:#000000;">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <p>Copyright &copy; กลมุ่ นักศกึษาวทิ ยาการคอมพวิเตอร์2021</p>
-              </div>
+      <!-- Collapse -->
+      <div class="collapse" id="collapse">
+        <div class="ms-2">
+          <div class="row">
+            <div class="col-2 text-end pt-2">
+              <img src="img/AC02.jpg" alt="Image description" class="img-fluid" width="125" height="120">
+            </div>
+            <div class="col-10">
+              <h2 class="title">นศ.สวนสุนันทา” คว้าแชมป์โลกมวยไทยสมัครเล่น</h2>
+              <p class="user-select-none">“นศ.สวนสุนันทา” คว้าแชมป์โลกมวยไทยสมัครเล่น รุ่นน้ำหนักไม่เกิน 57 กิโลกรัม
+                ในรายการ กีฬามวยไทยสมัครเล่นชิงแชมป์โลก 2021 (IFMA Youth and Senior World Championship 2021) จัดโดย
+                สหพันธ์มวยไทยสมัครเล่นนานาชาติ (IFMA)</p>
             </div>
           </div>
-        </footer>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-5 mx-auto">
+        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
+          aria-expanded="false" aria-controls="collapseExample">
+          <h3 class="user-select-none">เพิ่มเติม</h3>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- contact -->
+  <div class="container pt-5 mb-5" style="height: 400px">
+    <h2 class="text-start">ติดต่อเรา</h2>
+    <div class="d-flex flex-row justify-content-between gap-5">
+      <div class="d-flex custom-container">
+        <img src="img/contact01.jpg" alt="Image description" class="img-fluid custom-img" id="img1">
+        <img src="img/contact02.jpg" alt="Image description" class="img-fluid custom-img" id="img2">
+      </div>
+      <div class="d-flex mt-3">
+        <h3>ติดต่อเราได้ที่อาคารศูนย์สุขภาพและกีฬาสวนสุนันทา ชั้น 2 มหาวิทยาลัยราชภัฏสวนสุนันทา
+          สอบถามรายละเอียดเพิ่มเติมได้ที่ กองพัฒนานักศึกษา
+          โทรศัพท์ 02-160-1356
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="text-center p-3" style="background-color:#000000;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p style="color: white">Copyright &copy; กลุ่มนักศีกษาวิทยาการคอมพิวเตอร์ 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

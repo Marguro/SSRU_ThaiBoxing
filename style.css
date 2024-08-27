@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+  font-family: "Prompt", sans-serif !important;
+}
+body{
+  background-color: #e4e4e4 !important; 
+}
+.logo-text
+{
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #E73539 !important;
+    color: white !important; 
+  }
+
+h1
+{
+  font-weight: 600 !important;
+  font-size: 4rem !important;
+}
+
+h2
+{
+  font-weight: 500 !important;
+  font-size: 3rem !important;
+}
+
+h2::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: -10px;
+  width: 20px;
+  height: 70px;
+  background-color: #E73539;
+}
+
+.custom-container{
+  display: block;
+  max-width: 350px; 
+  
+  width: 100%;
+  height: auto;
+}
+
+.custom-img {
+  position: relative;
+}
+
+#img1 {
+  position: relative;
+  top: 90px;
+  left: 0px;
+  max-width: 250px;
+  width: 100%;
+  z-index: 2;
+}
+
+#img2 {
+  position: relative;
+  top: 0px;
+  left: -130px;
+  max-width: 250px;
+  width: 100%;
+  z-index: 1;
+}
+
+.devider {
+  display: inline-block;
+  max-width: 1400px;
+  width: 100%;
+  height: 1px;
+  background-color: none;
+  border: 1px solid black;
+  margin: 2rem 4rem;
+}
